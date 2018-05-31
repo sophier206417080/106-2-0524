@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <title>My Blog</title>
+    <title> TKU60</title>
+    <meta charset="uft-8">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,10 +15,13 @@
     <link href="../../css/flexslider.css" rel="stylesheet" />
     <link href="../../css/style.css" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="blog.css">
+
+    <link rel="stylesheet" href="css/tku60.css">
+    <script src="js/tku60.js"></script>
+
 </head>
 
-<body>
+<body onload="play(2)">
 
 
     <div class="topbar">
@@ -48,8 +52,8 @@
                         <li class="dropdown">
                             <a href="#" data-toggle="dropdown" class="dropdown-toggle">TKU <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="blog.html">W5_Blog</a></li>
-                                <li><a href="../../tku/w8_tku60/tku60.html">W8_TKU60</a></li>
+                                <li><a href="../../tku/w5_blog/blog.html">W5_Blog</a></li>
+                                <li><a href="tku60.html">W8_TKU60</a></li>
                                 <li><a href="#">News</a></li>
                                 <li><a href="#">Investors</a></li>
                             </ul>
@@ -65,42 +69,61 @@
     </header>
     <!-- end header -->
 
-    <div id="blog">
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700' rel='stylesheet' type='text/css'>
 
-        <div class="post">
-
-            <div class="date">November 23 2015</div>
-            <h2>This Is My First Article</h2>
-
-            <p class="quote">
-                Bacon ipsum dolor amet capicola strip steak landjaeger, biltong spare ribs rump cow ground round andouille sirloin pork. Short ribs pig prosciutto swine. Flank turducken turkey rump, leberkas shoulder bresaola ham hock tail drumstick corned beef. Venison
-                pork chop beef jowl short ribs.
-            </p>
-
-            <p>Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas
-                ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.</p>
-
-            <p>Pork pig pork loin prosciutto meatball turkey beef ribs ground round. Pork belly salami shank pork chop turducken ribeye swine shoulder tri-tip fatback cupim short loin chuck strip steak. Rump pork chop t-bone.</p>
-            <hr>
+    <div id="tku60">
+        <div id="player">
         </div>
+        <div id="aside">
+            <div>
+                <table class="tkuitem">
+                    <tr>
+                        <td> 1 </td>
+                        <td><img src="images/TKU1.png" class="pic" onclick="play(1)" /> </td>
+                        <td> 淡江大戲《那些淡江教我們的事》 part1</td>
+                    </tr>
+                </table>
 
-        <!-- <hr> -->
+            </div>
+            <div>
+                <table class="tkuitem">
+                    <tr>
+                        <td> 2 </td>
+                        <td><img src="images/TKU2.png" class="pic" onclick="play(2)" /> </td>
+                        <td> 淡江大戲《那些淡江教我們的事》 part2</td>
+                    </tr>
+                </table>
 
-        <div class="post">
-            <div class="date">December 11 2015</div>
-            <h2>This Is Another Article</h2>
+            </div>
+            <div>
+                <table class="tkuitem">
+                    <tr>
+                        <td> 3 </td>
+                        <td><img src="images/TKU3.png" class="pic" onclick="play(3)" /> </td>
+                        <td> 淡江大戲《那些淡江教我們的事》 part3</td>
+                    </tr>
+                </table>
 
-            <p class="quote">
-                Bacon ipsum dolor amet capicola strip steak landjaeger, biltong spare ribs rump cow ground round andouille sirloin pork. Short ribs pig prosciutto swine. Flank turducken turkey rump, leberkas shoulder bresaola ham hock tail drumstick corned beef. Venison
-                pork chop beef jowl short ribs.
-            </p>
+            </div>
+            <div>
+                <table class="tkuitem">
+                    <tr>
+                        <td> 4 </td>
+                        <td><img src="images/TKU4.png" class="pic" onclick="play(4)" /> </td>
+                        <td> 淡江大戲《那些淡江教我們的事》 part4</td>
+                    </tr>
+                </table>
 
-            <p>Shankle beef ribs tongue strip steak flank landjaeger capicola hamburger chuck pancetta kevin. Sirloin landjaeger chicken, bresaola brisket swine short ribs turkey short loin ball tip porchetta ham hock. Capicola frankfurter jowl short loin.
-                Kevin flank hamburger, beef venison shankle short loin bresaola frankfurter</p>
+            </div>
+            <div>
+                <table class="tkuitem">
+                    <tr>
+                        <td> 5 </td>
+                        <td><img src="images/TKU5.png" class="pic" onclick="play(5)" /> </td>
+                        <td> 淡江大戲《那些淡江教我們的事》 part5</td>
+                    </tr>
+                </table>
 
-            <p>Bresaola short ribs pastrami, beef ribs spare ribs kielbasa ham tongue kevin landjaeger chicken ball tip. Pork chop beef kevin strip steak, chicken pork belly pastrami ham hock flank shoulder chuck turkey ribeye andouille ball tip. Leberkas
-                ham ham hock pork loin. Filet mignon bacon pancetta leberkas turducken fatback tongue frankfurter jowl. Shoulder tenderloin chicken shank bacon shankle sirloin.</p>
+            </div>
         </div>
     </div>
 
